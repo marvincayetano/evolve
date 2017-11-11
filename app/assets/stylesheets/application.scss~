@@ -3,3 +3,14 @@
 h1, h2, h3 {
 	font-family: 'Open Sans', sans-serif;
 }
+
+.navbar {
+	background-color: white;
+	border: none;
+}
+
+.home-callout {
+	margin-top: -20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}

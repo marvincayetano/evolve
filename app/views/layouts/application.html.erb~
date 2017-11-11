@@ -23,9 +23,9 @@
 				</div>
 				<div class="collapse navbar-collapse" id="main-nav-collapse">
 					<ul class="nav navbar-nav navbar-right">
+            <li><a href="/about">Home</a></li>		
+            <li><a href="/about">About</a></li>		
             <li><a href="/about">Contact Us</a></li>		
-            <li><a href="/about">About</a></li>		
-            <li><a href="/about">About</a></li>		
             <li><a href="/about">Log In</a></li>		
 					</ul>
 				</div>
