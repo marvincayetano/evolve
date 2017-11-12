@@ -12,6 +12,18 @@ h1, h2, h3 {
 	border: none;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ff8f00;
+	border: 1px solid #ff8f00;
+}
+
+.navbar-default .navbar-toggle {
+	border: 1px solid white;
+	&:hover, &:focus {
+		border: 1px solid #ff8f00;
+	}
+}
+
 .home-callout {
 	margin-top: -20px;
 	padding-top: 100px;
