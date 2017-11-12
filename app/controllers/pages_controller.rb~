@@ -1,6 +1,16 @@
 class PagesController < ApplicationController
   def home 
   end
-  def index
+  def about
+  end
+  def services
+  end
+  def products
+  end
+  def clients
+  end
+  def contactus
+  end
+  def login
   end
 end

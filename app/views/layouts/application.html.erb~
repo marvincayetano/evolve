@@ -8,7 +8,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   
-  <!-- NAV BAR ########################################################################################### -->
+  <!-- NAV BAR ############################################################## -->
   <body>
      <nav class="navbar navbar-default navbar-static-top" role="navigation">
        <div class='container'>
@@ -20,28 +20,23 @@
 	     <span class="icon-bar"></span>
 	     </button>
 	     <%= link_to "/", class: "navbar-brand" do %>
-	       <i class="fa fa-group"></i>
+	       <!-- <i class="fa fa-group"></i> -->
 	       EVOTECH
 	     <% end %>
 	     </div>
 	       <div class="collapse navbar-collapse" id="main-nav-collapse">
 		<ul class="nav navbar-nav navbar-right">
-		  <li><%= link_to "ABOUT", "/about" %></li>
-		  <li><%= link_to "SERVICES", "/about" %></li>
-		  <li><%= link_to "PRODUCTS", "/about" %></li>
-		  <li><%= link_to "CLIENTS", "/about" %></li>
-		  <li><%= link_to "CONTACT US", "/about" %></li>
-		  <li><%= link_to "LOGIN", "/about" %></li>
-		  <li><a href="/about">ABOUT</a></li>		
-		  <li><a href="/about">SERVICES</a></li>		
-		  <li><a href="/about">PRODUCTS</a></li>		
-		  <li><a href="/about">CLIENTS</a></li>		
-		  <li><a href="/about">CONTACT US</a></li>		
-		  <li><a href="/about">LOGIN</a></li>		
+		  <li><%= link_to "ABOUT", about_path %></li>
+		  <li><%= link_to "SERVICES", services_path %></li>
+		  <li><%= link_to "PRODUCTS", products_path %></li>
+		  <li><%= link_to "CLIENTS", clients_path %></li>
+		  <li><%= link_to "CONTACT US", contact_path %></li>
+		  <li><%= link_to "LOGIN", login_path %></li>
 		</ul>
 	       </div>
 	     </div>
      </nav>
+    <!-- END OF NAV BAR ##################################################### -->
       <%= yield %>
   </body>
 </html>
