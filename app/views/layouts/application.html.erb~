@@ -23,17 +23,18 @@
 				</div>
 				<div class="collapse navbar-collapse" id="main-nav-collapse">
 					<ul class="nav navbar-nav navbar-right">
-            <li><a href="/about">Home</a></li>		
-            <li><a href="/about">About</a></li>		
-            <li><a href="/about">Contact Us</a></li>		
-            <li><a href="/about">Log In</a></li>		
+            <li><a href="/about">HOME</a></li>		
+            <li><a href="/about">ABOUT</a></li>		
+            <li><a href="/about">SERVICES</a></li>		
+            <li><a href="/about">PRODUCTS</a></li>		
+            <li><a href="/about">CLIENTS</a></li>		
+            <li><a href="/about">CONTACT US</a></li>		
+            <li><a href="/about">LOGIN</a></li>		
 					</ul>
 				</div>
 			</div>
 		</nav>
 
-    <div class="container">
       <%= yield %>
-    </div>
   </body>
 </html>
