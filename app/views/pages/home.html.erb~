@@ -1,12 +1,15 @@
-<div class="home-callout text-center">
-	<h1>Welcome to EVOTECH</h1>
-	<h3>We Completely believe that the client's need is paramout</h3>
-	<br></br>
-	<h3>We offer more than just features, but a way to achieve your goals<br>
-			and the best means to help you achieve your goal is to find out as much as we can<br>
-			about your company and its needs, so we can come up with the best solution for you.</h3>
-	<br></br>
-	<h3>Let us work together and belong to the growing cluster of companies achieving their goal<br>
-	through technological advancement</h3>
-	<h3>Be part and benefit from our experience</h3>
+<div class="masthead text-center text-white d-flex">
+	<div class="container my-auto">
+		<div class="row">
+			<div class="col-lg-10 mx-auto">
+				<h1 class="text-uppercase">
+					<strong>WELCOME TO EVOTECH</strong>
+				</h1>
+				<hr>
+			</div>
+			<div class="col-lg-8 mx-auto">
+				<p class="text-faded mb-5"> We Completely believe that the client's need is paramout
+			</div>
+		</div>
+	</div>
 </div>
