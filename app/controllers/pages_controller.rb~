@@ -3,14 +3,14 @@ class PagesController < ApplicationController
   end
   def about
   end
-  def services
-  end
-  def products
-  end
   def clients
   end
   def contactus
   end
   def login
+  end
+  def products
+  end
+  def services
   end
 end

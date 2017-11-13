@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
+  get 'contacts/new'
+
   root to: 'pages#home'
   get 'about', to: 'pages#about'
   get 'clients', to: 'pages#clients'
-  get 'contactus', to: 'pages#contactus'
+  resources :contacts
   get 'login', to: 'pages#login'
   get 'products', to: 'pages#products'
   get 'services', to: 'pages#services'

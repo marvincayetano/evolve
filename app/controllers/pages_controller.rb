@@ -5,8 +5,6 @@ class PagesController < ApplicationController
   end
   def clients
   end
-  def contactus
-  end
   def login
   end
   def products
