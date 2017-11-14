@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'clients', to: 'pages#clients'
 
   resources :contacts
+  get 'contact-us', to: 'contacts#new'
 
   get 'login', to: 'pages#login'
   get 'products', to: 'pages#products'

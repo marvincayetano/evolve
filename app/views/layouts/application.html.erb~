@@ -8,7 +8,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   
-  <!-- NAV BAR ############################################################## -->
+  <!-- NAV BAR ############################################################# -->
   <body>
    <nav class="navbar navbar-default navbar-static-top" role="navigation">
      <div class='container'>
@@ -31,18 +31,21 @@
 	     <li><%= link_to "SERVICES", services_path %></li>
 	     <li><%= link_to "PRODUCTS", products_path %></li>
 	     <li><%= link_to "CLIENTS", clients_path %></li>
-	     <li><%= link_to "CONTACT US", new_contact_path %></li>
+	     <li><%= link_to "CONTACT US", new_contact_us_path %></li>
 	     <li><%= link_to "LOGIN", login_path %></li>
 	   </ul>
 	 </div>
       </div>
     </nav>
-    <!-- END OF NAV BAR ##################################################### -->
+    <!-- END OF NAV BAR #################################################### -->
+
+    <!-- START OF ALERT MSG ################################################ -->
     <div class="container">
       <% flash.each do |type, msg| %>
       <%= content_tag :div, msg, class: "alert alert-#{type}" %>
       <% end %>
     </div>
+    <!-- END OF ALERT MSG ################################################## -->
       <%= yield %>
   </body>
 </html>
