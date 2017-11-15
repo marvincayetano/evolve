@@ -32,7 +32,7 @@
 	     <li><%= link_to "PRODUCTS", products_path %></li>
 	     <li><%= link_to "CLIENTS", clients_path %></li>
 	     <li><%= link_to "CONTACT US", new_contact_path%></li>
-	     <li><%= link_to "LOGIN", login_path %></li>
+	     <li><%= link_to "LOGIN", new_user_session_path%></li>
 	   </ul>
 	 </div>
       </div>
@@ -46,7 +46,7 @@
       <% end %>
     </div>
     <!-- END OF ALERT MSG ################################################## -->
-    <div style="margin-top:50px">
+    <div style="margin-top:100px">
       <%= yield %>
     </div>
   </body>
