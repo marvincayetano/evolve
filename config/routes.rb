@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
+
+  # USER LOGIN
   devise_for :users
+
   get 'contacts/new'
 
   root to: 'pages#home'
@@ -14,5 +17,4 @@ Rails.application.routes.draw do
   get 'products', to: 'pages#products'
   get 'services', to: 'pages#services'
   
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
