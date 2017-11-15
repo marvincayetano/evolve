@@ -40,12 +40,14 @@
     <!-- END OF NAV BAR #################################################### -->
 
     <!-- START OF ALERT MSG ################################################ -->
-    <div class="container-fluid">
+    <div class="container">
       <% flash.each do |type, msg| %>
       <%= content_tag :div, msg, class: "alert alert-#{type}" %>
       <% end %>
     </div>
     <!-- END OF ALERT MSG ################################################## -->
+    <div style="margin-top:50px">
       <%= yield %>
+    </div>
   </body>
 </html>

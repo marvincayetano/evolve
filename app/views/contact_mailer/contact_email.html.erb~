@@ -5,4 +5,5 @@
 		<p>You have received a message from the sites contact form
 		<%= "#{ @name }, #{ @email }." %></p>
 		<p><%= @body %></p>
+	</body>
 </html>
