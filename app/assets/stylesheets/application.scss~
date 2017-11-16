@@ -25,7 +25,12 @@ h1, h2, h3 {
 	}
 }
 
+.navbar-brand {
+  background: url(evotech_no_benefit.svg);
+  width: 200px;
+}
 body,
 html {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+}
