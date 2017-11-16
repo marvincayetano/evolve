@@ -4,33 +4,50 @@
 @import 'font-awesome';
 
 h1, h2, h3 {
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
-	background-color: white;
-	border: none;
-}
+  background-color: transparent;
+  border: none;
+  min-height: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
-.navbar-default .navbar-toggle .icon-bar {
-	background-color: #ff8f00;
-	border: 1px solid #ff8f00;
-}
-
-.navbar-default .navbar-toggle {
-	border: 1px solid white;
-	&:hover, &:focus {
-		border: 1px solid #ff8f00;
-		background-color: white;
-	}
 }
 
 .navbar-brand {
   background: url(evotech_no_benefit.svg);
   width: 200px;
 }
-body,
-html {
-  width: 100%;
-  height: 100%;
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ff8f00;
+  border: 1px solid #ff8f00;
+}
+
+.navbar-default .navbar-toggle {
+  border: 1px solid white;
+  &:hover, &:focus {
+	  border: 1px solid #ff8f00;
+	  background-color: white;
+  }
+}
+
+// TEMPORARY //
+.temporary{
+  padding-top: 100px;
+}
+
+
+// START OF PAGES#HOME //
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url('header.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 900px;
 }
