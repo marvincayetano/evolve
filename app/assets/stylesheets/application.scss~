@@ -33,21 +33,3 @@ h1, h2, h3 {
 	  background-color: white;
   }
 }
-
-// TEMPORARY //
-.temporary{
-  padding-top: 100px;
-}
-
-
-// START OF PAGES#HOME //
-header.masthead {
-  text-align: center;
-  color: white;
-  background-image: url('header.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-  padding-top: 900px;
-}
