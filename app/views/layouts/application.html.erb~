@@ -11,7 +11,7 @@
   <!-- NAV BAR ############################################################# -->
   <body>
     <% if !user_signed_in? %> <!-- IF USER IS SIGNED IN -->
-      <nav class="navbar navbar-default navbar-static-top " role="navigation">
+      <nav class="navbar navbar-default navbar-static-top " id="mainNav" role="navigation">
 	<div class='container'>
 	  <div class="navbar-header">
 	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav-collapse">

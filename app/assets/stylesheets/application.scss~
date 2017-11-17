@@ -11,8 +11,8 @@ h1, h2, h3 {
   background-color: transparent;
   border: none;
   min-height: 80px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
 }
 
@@ -33,3 +33,20 @@ h1, h2, h3 {
 	  background-color: white;
   }
 }
+
+// START OF PAGES#HOME // 
+#mainNav.navbar-shrink {
+border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+background-color: #fff; }
+  #mainNav.navbar-shrink .navbar-brand {
+color: #F05F40; }
+    #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+  color: #f05f40; }
+      #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+	#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+color: #212529; }
+	  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+	    #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #F05F40; } 
+
+// END OF PAGES#HOME // 
