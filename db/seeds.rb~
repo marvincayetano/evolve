@@ -5,6 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-User_Type.create(type: 'Admin')
-User_Type.create(type: 'Evotech Developer')
-User_Type.create(type: 'Client')
+User_Type.create(user_type: 'Admin')
+User_Type.create(user_type: 'Evotech Developer')
+User_Type.create(user_type: 'Client')
