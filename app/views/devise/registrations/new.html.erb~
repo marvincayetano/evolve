@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="headerMargin">
   <div class="row">
     <div class="col-md-4">
       <div class="well">
@@ -13,7 +13,8 @@
           </div>
 
           <div class="field form-group">
-            <%= f.label :company_id, 'Company ID' %><br />
+            <%= f.label :company_id, 'Company ID' %>
+            <a data-toggle="popover" data-content="An id that has been given to your company representative for security purposes."><span class="glyphicon glyphicon-question-sign"></span></a> 
             <%= f.password_field :company_id, autocomplete: "off", class: 'form-control' %>
           </div>
 

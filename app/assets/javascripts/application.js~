@@ -16,8 +16,8 @@
 //= require turbolinks
 //= require_tree .
 
-(function($){
 // Collapse Navbar
+$(document).on('turbolinks:load', function(){
   var navbarCollapse = function() {
     if ($('#mainNav').offset().top > 100) {
       $('#mainNav').addClass('navbar-shrink');
@@ -29,4 +29,4 @@
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
-})(jQuery);
+});
