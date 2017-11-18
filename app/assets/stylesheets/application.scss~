@@ -54,6 +54,6 @@ color: #212529; }
 
 // START OF DEVISE#LOGIN// 
 #headerMargin{
-  margin-top: 50px;
+  margin-top: 80px;
 }
 // END OF PAGES#LOGIN// 
