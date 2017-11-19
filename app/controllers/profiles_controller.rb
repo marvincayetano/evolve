@@ -17,6 +17,11 @@ class ProfilesController < ApplicationController
     end
   end
 
+  def edit
+    @user = User.find( params[:user_id] )
+    @profile = @user.profile
+  end
+
   private
   # WHITELISTING THE FORM SO HACKER CANT ADD FORM FIELD
   def profile_params
