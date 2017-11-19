@@ -11,7 +11,7 @@ class ProfilesController < ApplicationController
     # User who is currently logged in 
     # this comes from the url
     # PATH NEEDS THIS CODE id: params[:user_id]
-    @user = User.find(id: params[:user_id] )
+    @user = User.find( params[:user_id] )
     # Create profile link to user
     @profile = @user.build_profile( profile_params )
     if @profile.save 
@@ -47,6 +47,6 @@ class ProfilesController < ApplicationController
 
     def only_current_user
       @user = User.find( params[:user_id] )
-      redirect_to(root_url) unless @user == current_user
+      redirect_to(root_path) unless @user == current_user
     end
 end
