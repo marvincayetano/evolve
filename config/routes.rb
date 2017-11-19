@@ -12,6 +12,11 @@ Rails.application.routes.draw do
     resource :profile
   end
 
+  # USER PROFILE USER TYPE
+  resources :users do
+    resource :user_type, except: :destroy
+  end
+
 
   get 'about', to: 'pages#about'
   get 'clients', to: 'pages#clients'

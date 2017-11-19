@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   root to: 'pages#home'
 
   # USER LOGIN
-  # this is for user signing up and logging in with authentication
+  # Devise is a gem for user authentication
   devise_for :users
 
   # USER PROFILE
@@ -10,6 +10,11 @@ Rails.application.routes.draw do
   # has only one profile each, has many will be profiles
   resources :users do
     resource :profile
+  end
+
+  # USER PROFILE USER TYPE
+  resources :profile do
+    resource :user_type, except: :destroy
   end
 
 
