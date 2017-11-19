@@ -20,6 +20,6 @@ class ProfilesController < ApplicationController
   private
   # WHITELISTING THE FORM SO HACKER CANT ADD FORM FIELD
   def profile_params
-    params.require(:profile).permit(:first_name, :last_name, :job_title, :phone_number, :description) 
+    params.require(:profile).permit(:avatar, :first_name, :last_name, :job_title, :phone_number, :description) 
   end
 end
