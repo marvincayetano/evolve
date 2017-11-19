@@ -39,7 +39,7 @@
       </nav>
     <% else %>
       <%= link_to "LOGOUT", destroy_user_session_path, method: :delete %>
-      <%= link_to "NEW PROFILE", new_user_profile_path(user_id: current_user) %>
+      <%= link_to "NEW PROFILE", new_user_profile_path(user_id: current_user.id) %>
     <% end %><!-- END OF IF USER IS SIGNED IN -->
     <!-- END OF NAV BAR #################################################### -->
 
