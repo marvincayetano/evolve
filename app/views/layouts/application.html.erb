@@ -44,9 +44,9 @@
     <!-- END OF NAV BAR #################################################### -->
 
     <!-- START OF ALERT MSG ################################################ -->
-    <div class="container" style="position: absolute;">
+    <div class="container" style="position: absolute; padding:0; width:100%;">
       <% flash.each do |type, msg| %>
-      <%= content_tag :div, msg, class: "alert alert-#{type}" %>
+      <%= content_tag :div, msg, class: "alert alert-#{type} text-center" %>
       <% end %>
     </div>
     <!-- END OF ALERT MSG ################################################## -->
