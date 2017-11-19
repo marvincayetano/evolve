@@ -29,4 +29,8 @@ $(document).on('turbolinks:load', function(){
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
+
+
+  // Popover. What is this ?
+  $('[data-toggle="popover"]').popover();   
 });

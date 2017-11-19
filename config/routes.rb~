@@ -2,7 +2,6 @@ Rails.application.routes.draw do
 
   # USER LOGIN
   devise_for :users
-  get 'login', to: 'devise/sessions#new', as: 'login'
 
   get 'contacts/new'
 

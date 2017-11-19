@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
+  root to: 'pages#home'
 
   # USER LOGIN
   devise_for :users
 
   get 'contacts/new'
 
-  root to: 'pages#home'
   get 'about', to: 'pages#about'
   get 'clients', to: 'pages#clients'
 

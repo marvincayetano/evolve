@@ -34,6 +34,12 @@ h1, h2, h3 {
 }
 
 // START OF PAGES#HOME // 
+#homeContainer {
+   position: absolute;
+   width: 100%;
+   padding-left: 0;
+   padding-right: 0;
+}
 #mainNav.navbar-shrink {
   padding-top: 5px;
   padding-bottom: 5px;
