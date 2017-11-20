@@ -25,19 +25,50 @@
 #homeAbout {
   position: relative;
   background-color: #ff7e27!important;
-  height: 420px;
+  height: 529px;
   color: #fff;
   text-align: center;
   .container{
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 128px;
+    padding-bottom: 128px;
     .row p{
     color: rgba(255,255,255,.8); 
     }
   }
 } 
 
-#homeServices {
+#homeApproaches {
   position: relative;
-  height: 380px;
+  background-color: #fff!important;
+  height: 529px;
+  color: #fff;
+  text-align: center;
+  .container{
+    padding-top: 128px;
+    padding-bottom: 128px;
+    .row h2{
+    color: #000;
+    }
+    .row p{
+    color: rgba(0,0,0,.8); 
+    }
+  }
+}
+
+#homeTechPartners{
+  position: relative;
+  background-color: #fff!important;
+  height: 5128px;
+  color: #fff;
+  text-align: center;
+  .container{
+    padding-top: 128px;
+    padding-bottom: 128px;
+    .row h2{
+    color: #000;
+    }
+    .row p{
+    color: rgba(0,0,0,.8); 
+    }
+  }
 }

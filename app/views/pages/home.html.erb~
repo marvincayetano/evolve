@@ -15,7 +15,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
-				<h2>We completely believe that the client's need is paramount</h1>
+				<h2>We completely believe that the client's need is paramount</h2>
+				<br>
 			</div>
 			<div class="col-md-8 col-md-offset-2">
 				<p>We offer more than just features, but a way to achieve your goals, and the best means to help you achieve your goal is to find out as much as we can about your company and its needs, so we can come up with the best solution for you.</p>
@@ -27,6 +28,51 @@
 		</div>
 	</div>
 </section>
-<section id="homeServices">
 
+<section id="homeApproaches">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<h2>Our main approches</h2>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-s-12">
+				<div>
+					<i class="fa fa-4x fa-bullseye" aria-hidden="true"></i>
+				  <h3>FOCUS</h3>	
+					<p class="text-muted">The very secret of success. We use technical approach to indentify problem areas and integrate analysis into functional business solutions and a technology to match them.</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-s-12">
+				<div>
+					<i class="fa fa-4x fa-bullseye" aria-hidden="true"></i>
+				  <h3>FOCUS</h3>	
+					<p class="text-muted">A Technology that meets your very needs. A standard to be set at ppar with your very own process.</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-s-12">
+				<div>
+					<i class="fa fa-4x fa-bullseye" aria-hidden="true"></i>
+				  <h3>FOCUS</h3>	
+					<p class="text-muted">Pay only for the services that you need.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="homeTechPartners">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<h2>We completely believe that the client's need is paramount</h1>
+				<br>
+			</div>
+			<div class="col-md-4">
+			</div>
+		</div>
+	</div>
 </section>
