@@ -19,18 +19,9 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6{
   font-family: 'Open Sans', sans-serif;
 }
-// MAIN NAV BAR ID //
-#mainNav {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background: transparent;
-  border:none;
-}
-
-// MAIN NAV BAR ID END //
 
 // LOGGED IN NAVBAR //
 .navbarImage{
@@ -58,14 +49,17 @@ h1, h2, h3 {
 	  background-color: white;
   }
 }
-
-// START OF PAGES#HOME // 
-#homeContainer {
-   position: absolute;
-   width: 100%;
-   padding-left: 0;
-   padding-right: 0;
+// NAV BAR //
+#mainNav {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: transparent;
+  border:none;
+  -webkit-transition: all 1.0s;
+  -moz-transition: all 1.0s;
+  transition: all 1.0s; 
 }
+
 #mainNav.navbar-shrink {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -81,8 +75,7 @@ h1, h2, h3 {
  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
   color: #F05F40; 
 } 
-// END OF PAGES#HOME // 
-
+// NAV BAR END //
 
 // START OF DEVISE#LOGIN // 
 #headerMargin{

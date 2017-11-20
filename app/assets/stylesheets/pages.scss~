@@ -15,9 +15,14 @@
     padding-bottom: 314px;
   }
 }
+
 #homeAbout{
   position: relative;
   background-color: #f05f40!important;
-  height: 350px;
+  height: 380px;
 }
 
+#homeServices{
+  position: relative;
+  height: 380px;
+}

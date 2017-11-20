@@ -18,6 +18,9 @@
 
 // Collapse Navbar
 $(document).on('turbolinks:load', function(){
+  // Smooth scrolling using jQuery easing
+
+  // Colapse navbar when top > 100
   var navbarCollapse = function() {
     if ($('#mainNav').offset().top > 100) {
       $('#mainNav').addClass('navbar-shrink');
@@ -33,4 +36,5 @@ $(document).on('turbolinks:load', function(){
 
   // Popover. What is this ?
   $('[data-toggle="popover"]').popover();   
+  
 });
