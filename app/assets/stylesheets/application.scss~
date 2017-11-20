@@ -19,7 +19,7 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6{
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -29,6 +29,7 @@ h1, h2, h3 {
   height: 10px;
 }
 // LOGGED IN NAVBAR END //
+
 .navbar-brand {
   background: url(evotech_no_benefit.svg);
   background-repeat: no-repeat; 
@@ -59,7 +60,9 @@ h1, h2, h3 {
   -moz-transition: all 1.0s;
   transition: all 1.0s; 
 }
-
+.navbar-default .navbar-nav > li > a:hover {
+    color: #f47f25;
+ }
 #mainNav.navbar-shrink {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -73,7 +76,7 @@ h1, h2, h3 {
   color: #212529;
 }
  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #F05F40; 
+  color: #f47f25; 
 } 
 // NAV BAR END //
 

@@ -1,4 +1,4 @@
-#homeHeader{
+#homeHeader {
   height: 760px;
   text-align: center;
   color: #fff;
@@ -13,16 +13,31 @@
   .container{
     padding-top: 314px;
     padding-bottom: 314px;
+    .row h2 {
+    font-size: 5rem;
+    }
+    .row h3 {
+    font-style: italic;
+    }
   }
 }
 
-#homeAbout{
+#homeAbout {
   position: relative;
-  background-color: #f05f40!important;
-  height: 380px;
-}
+  background-color: #ff7e27!important;
+  height: 420px;
+  color: #fff;
+  text-align: center;
+  .container{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    .row p{
+    color: rgba(255,255,255,.8); 
+    }
+  }
+} 
 
-#homeServices{
+#homeServices {
   position: relative;
   height: 380px;
 }

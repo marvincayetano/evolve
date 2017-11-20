@@ -2,17 +2,31 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
-				<h2>Welcome to EVOTECH!</h1>
+				<h2><strong>Welcome to EVOTECH</strong></h1>
 			</div>
-			<div class="col-md-6 col-md-offset-3">
-				<h1>HINDIKOALAM</h1>
+			<div class="col-md-10 col-md-offset-1">
+				<h3>Benefit from our experience</h3>
 			</div>
 		</div>
 	</div>
 </header>
-<section id="homeAbout">
 
-</section>
 <section id="homeAbout">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<h2>We completely believe that the client's need is paramount</h1>
+			</div>
+			<div class="col-md-8 col-md-offset-2">
+				<p>We offer more than just features, but a way to achieve your goals, and the best means to help you achieve your goal is to find out as much as we can about your company and its needs, so we can come up with the best solution for you.</p>
+				<br>
+				<p>Let us work together and belong to the growing cluster of companies achieving their goal through technological advancement.</p>
+				<br>
+				<p><strong>Be part and benefit from our experience.</strong></p>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="homeServices">
 
 </section>
