@@ -1,4 +1,3 @@
 class User_Type < ActiveRecord::Base
-  # EACH USER TYPE BELONGS TO ONE USER
-  belongs_to :user
+  has_many :users
 end

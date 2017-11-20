@@ -1,3 +1,3 @@
-class User_Type < ActiveRecord::Base
-  belongs_to :user
+class UserType < ActiveRecord::Base
+  has_many :users
 end
