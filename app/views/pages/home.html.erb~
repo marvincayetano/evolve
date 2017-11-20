@@ -1,8 +1,12 @@
-<div class="container">
-	<div class="row">
-		<div class="col-md-12">
-				<div class="well">
-				</div>
+<div id="homeHeader">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<h2>Welcome to EVOTECH!</h1>
+			</div>
+			<div class="col-md-6 col-md-offset-3">
+				<h1>HINDIKOALAM</h1>
+			</div>
 		</div>
 	</div>
 </div>

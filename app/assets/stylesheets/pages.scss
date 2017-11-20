@@ -1,0 +1,23 @@
+#homeHeader{
+  height: 760px;
+  text-align: center;
+  color: #fff;
+  background-image: url('header.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  .container{
+    padding-top: 314px;
+    padding-bottom: 314px;
+  }
+}
+#homeAbout{
+  position: relative;
+  background-color: #f05f40!important;
+  height: 380px;
+}
+
