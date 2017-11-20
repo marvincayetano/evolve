@@ -43,9 +43,6 @@ gem 'devise', '4.3.0'
 # Use paperclip for image upload
 gem 'paperclip', '4.3.6'
 
-# Use ScrollReveal js for animation
-gem 'scrollreveal-rails'
-
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Evotech Software Solutions inc.</title>
+    <title>Evotech Software Solutions</title>
     <%= csrf_meta_tags %>
+    <meta http-equiv="x-ua-compatible" content="IE=9">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>

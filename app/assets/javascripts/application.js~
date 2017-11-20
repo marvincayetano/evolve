@@ -13,24 +13,13 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap-sprockets
+//= require scrollReveal
 //= require turbolinks
 //= require_tree .
 
 // Collapse Navbar
 $(document).on('turbolinks:load', function(){
   // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: (target.offset().top - 57)
-        }, 1000, "easeInOutExpo");
-        return false;
-      }
-    }
-  });
 
   // Colapse navbar when top > 100
   var navbarCollapse = function() {
@@ -45,6 +34,13 @@ $(document).on('turbolinks:load', function(){
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  // Scroll reveal calls
+  window.sr = scrollReveal({ reset: true });
+  sr.reveal('.sr-icons', {
+    duration: 600,
+    scale: 0.3,
+    distance: '0px'
+  }, 200);
 
   // Popover. What is this ?
   $('[data-toggle="popover"]').popover();   
