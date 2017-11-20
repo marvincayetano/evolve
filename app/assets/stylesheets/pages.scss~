@@ -40,18 +40,24 @@
 #homeApproaches {
   position: relative;
   background-color: #fff!important;
-  height: 529px;
+  height: 929px;
   color: #fff;
   text-align: center;
-  .container{
+  .container {
     padding-top: 128px;
     padding-bottom: 128px;
-    .row h2{
+    .row h2, h3 {
     color: #000;
     }
-    .row p{
+    .row p {
     color: rgba(0,0,0,.8); 
     }
+  }
+  .titleApproaches {
+    padding-bottom: 64px;
+  }
+  .mainApproaches {
+    padding-top: 0;
   }
 }
 
