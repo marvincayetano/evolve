@@ -46,11 +46,17 @@
   .container {
     padding-top: 128px;
     padding-bottom: 128px;
-    .row h2, h3, i {
-    color: #000;
+    .row i {
+      color: #ff7e27; 
+    }
+    .row h2, h3 {
+      color: #000;
     }
     .row p {
-    color: rgba(0,0,0,.8); 
+      color: rgba(0,0,0,.8); 
+    }
+    .approachesBox{
+      margin-top: 20px;
     }
   }
   .titleApproaches {
