@@ -34,14 +34,6 @@ $(document).on('turbolinks:load', function(){
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  // Scroll reveal calls
-  window.sr = scrollReveal({ reset: true });
-  sr.reveal('.sr-icons', {
-    duration: 600,
-    scale: 0.3,
-    distance: '0px'
-  }, 200);
-
   // Popover. What is this ?
   $('[data-toggle="popover"]').popover();   
   

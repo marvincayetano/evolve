@@ -91,8 +91,8 @@
   color: #fff;
   text-align: center;
   .container {
-    padding-top: 64px;
-    padding-bottom: 14px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     .copyright {
       color: #212529;
       line-height: 50px;
@@ -118,3 +118,47 @@
     }
   }
 }
+
+/////////////////////////
+
+#contactUsHeader {
+  height: 512px;
+  text-align: center;
+  color: #fff;
+  background-image: url('header.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  .container{
+    padding-top: 185.5px;
+    padding-bottom: 185.5px;
+    .row h2 {
+    font-size: 5rem;
+    }
+    .row h3 {
+    font-style: italic;
+    }
+  }
+}
+
+#contactUsForm {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 954px;
+  hr {
+  max-width: 200px;
+  margin: 0px;
+  }
+  .contactUsGetInTouch {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .row p {
+    text-align: right;
+  }
+}
+

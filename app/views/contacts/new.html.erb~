@@ -1,24 +1,68 @@
-<div class="container">
-	<div class="row">
-		<h3 class="text-center"> Contact Us</h3>
-		<div class="col-md-4 col-md-offset-4">
-			<div class="well">
-				<%= form_for @contact do |f| %>
-					<div class="form-group">
-						<%= f.label :name %>
-						<%= f.text_field :name , class: 'form-control' %>
-					</div>
-					<div class="form-group">
-						<%= f.label :email %>
-						<%= f.text_field :email, class: 'form-control' %>
-					</div>
-					<div class="form-group">
-						<%= f.label :comments %>
-						<%= f.text_area:comments, class: 'form-control' %>
-					</div>
-					<%= f.submit 'Submit',class: 'btn btn-default'%>
-				<% end %> 
+<header id="contactUsHeader">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<h2><strong>CONTACT US</strong></h1>
+			</div>
+			<div class="col-md-10 col-md-offset-1">
+				<h3>We love to hear from the people who use our software</h3>
 			</div>
 		</div>
 	</div>
+</header>
+
+<div class="container" id="contactUsForm">
+	<div class="row">
+		<div class="col-md-12 text-center contactUsGetInTouch">
+			<h3>Get in touch with us</h3>
+		</div>	
+	<div class="row">
+
+		<div class="col-md-4">
+			<%= form_for @contact do |f| %>
+				<div class="form-group">
+					<%= f.label :name %>
+					<%= f.text_field :name , class: 'form-control' %>
+				</div>
+				<div class="form-group">
+					<%= f.label :email %>
+					<%= f.text_field :email, class: 'form-control' %>
+				</div>
+				<div class="form-group">
+					<%= f.label :comments %>
+					<%= f.text_area:comments, class: 'form-control' %>
+				</div>
+				<%= f.submit 'Submit',class: 'btn btn-default'%>
+			<% end %> 
+		</div>
+	</div>
 </div>
+
+		<div class="col-md-7 col-md-push-3"> 
+			<h3><strong>General Contact</strong></h3>
+			<br>
+			<h3>Main Office</h3>
+			<br>
+			<p>Evotech Software Solutions, Inc.<br>Cenel Place Building. 3rd Floor<br>239 Gen Luna Corner Burgos St.<br>Concepcion, Malabon City 1470<br>Philippines</p>
+			<br>
+			<h3>Phone</h3>
+			<br>
+			<ul class="list-unstyled">
+				<li>+ 63 (02) 287-1111</li>
+				<li>+ 63 (02) 984-7320</li>
+				<li>+ 63 (02) 984-9620</li>
+			</ul>
+			<br>
+			<hr>
+			<h3>Software House</h3>
+			<br>
+			<p>Evotech Software Solutions, Inc.<br>18-A1 Saint Jude. Herrera St.<br>Ibaba, Malabon City 1470<br>Philippines</p>
+			<br>
+			<h3>Phone</h3>
+			<br>
+			<ul class="list-unstyled">
+				<li>+ 63 (02) 287-1111</li>
+				<li>+ 63 (02) 984-7320</li>
+				<li>+ 63 (02) 984-9620</li>
+			</ul>
+		</div>
