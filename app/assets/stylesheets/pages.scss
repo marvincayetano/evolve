@@ -3,6 +3,7 @@
   text-align: center;
   color: #fff;
   background-image: url('header.jpg');
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -24,22 +25,25 @@
 
 #homeAbout {
   position: relative;
-  background-color: #ff7e27!important;
-  height: 529px;
-  color: #fff;
+  background-color: #fff!important;
+  height: 496px;
+  color: #4a4b4a;
   text-align: center;
   .container{
-    padding-top: 128px;
+    padding-top: 64px;
     padding-bottom: 128px;
     .row p{
-    color: rgba(255,255,255,.8); 
+      color: rgba(0,0,0,.8); 
+    }
+    hr {
+      max-width: 30%;
     }
   }
 } 
 
 #homeApproaches {
   position: relative;
-  background-color: #fff!important;
+  background-color: #ff7e27!important;
   height: 619px;
   color: #fff;
   text-align: center;
@@ -47,13 +51,13 @@
     padding-top: 128px;
     padding-bottom: 128px;
     .row i {
-      color: #ff7e27; 
+      color: #fff; 
     }
     .row h2, h3 {
-      color: #000;
+      color: #fff;
     }
     .row p {
-      color: rgba(0,0,0,.8); 
+      color: rgba(255,255,255,.8); 
     }
     .approachesBox{
       margin-top: 20px;
@@ -126,6 +130,7 @@
   text-align: center;
   color: #fff;
   background-image: url('header.jpg');
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: 50% 50%;
@@ -146,15 +151,17 @@
 }
 
 #contactUsForm {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: 954px;
+  position: relative;
+  height: 789px;
+  .container{
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
   hr {
-  max-width: 200px;
-  margin: 0px;
+    max-width: 200px;
+    margin: 0px;
   }
   .contactUsGetInTouch {
-    margin-top: 50px;
     margin-bottom: 50px;
   }
   .formFields {
@@ -163,3 +170,31 @@
   }
 }
 
+#contactUsContacts{
+  background-color: #ff7e27!important;
+  height: 754px;
+  color: #fff;
+  text-align: center;
+  .container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    .row i {
+      color: #fff; 
+    }
+    .row h2, h3 {
+      color: #fff;
+    }
+    .row p {
+      color: rgba(255,255,255,.8); 
+    }
+    .contactUsBox {
+      margin-top: 20px;
+    }
+  }
+  .titleContactUs {
+    padding-bottom: 64px;
+  }
+  .mainContactUs {
+    padding-top: 0;
+  }
+}
