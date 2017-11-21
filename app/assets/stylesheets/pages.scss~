@@ -157,8 +157,9 @@
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  .row p {
-    text-align: right;
+  .formFields {
+    height: 3.5em;
+    margin-bottom: 12px;
   }
 }
 

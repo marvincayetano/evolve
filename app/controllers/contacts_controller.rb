@@ -11,10 +11,12 @@ class ContactsController < ApplicationController
     # Instantiate new Contact Object
     @contact = Contact.new(contact_params)
     if @contact.save # Saves to database and returns true or false
-      name = params[:contact][:name]
+      first_name = params[:contact][:first_name]
+      last_name = params[:contact][:last_name]
       email = params[:contact][:email]
+      company_name = params[:contact][:company_name]
       body  = params[:contact][:comments]
-      ContactMailer.contact_email(name, email, body).deliver # Calls contact_email function from ContactMailer class
+      ContactMailer.contact_email(first_name, last_name, email, company_name, body).deliver # Calls contact_email function from ContactMailer class
       flash[:success] = "Message sent."# Changable :success
       redirect_to new_contact_path
     else
@@ -26,6 +28,6 @@ class ContactsController < ApplicationController
   private
     # Collects data from form
     def contact_params
-      params.require(:contact).permit(:name, :email, :comments)
+      params.require(:contact).permit(:first_name, :last_name, :email, :company_name, :comments)
     end
 end
