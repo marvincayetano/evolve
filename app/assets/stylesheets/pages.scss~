@@ -1,5 +1,5 @@
 #homeHeader {
-  height: 760px;
+  height: 769px;
   text-align: center;
   color: #fff;
   background-image: url('header.jpg');
@@ -50,6 +50,9 @@
   .container {
     padding-top: 128px;
     padding-bottom: 128px;
+    .row hr {
+      max-width: 30%;
+    }
     .row i {
       color: #fff; 
     }
