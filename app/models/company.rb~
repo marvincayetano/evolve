@@ -1,3 +1,2 @@
-class Company < Activerecord::Base
- has_many :users
+class Company < ActiveRecord::Base
 end
