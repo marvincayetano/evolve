@@ -6,5 +6,5 @@ class User < ApplicationRecord
   
   # EACH USER HAS ONE PROFILE AND USER TYPE
   has_one :profile 
-  has_one :user_type
+  belongs_to :user_type
 end

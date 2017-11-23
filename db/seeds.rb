@@ -8,3 +8,4 @@
 UserType.create(user_type: 'Admin')
 UserType.create(user_type: 'Evotech Developer')
 UserType.create(user_type: 'Client')
+Company.create(code: '000000' ,name: 'Evotech Software Solutions', address_id: 1,tel_no: '613 1111 111')

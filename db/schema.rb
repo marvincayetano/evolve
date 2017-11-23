@@ -17,10 +17,8 @@ ActiveRecord::Schema.define(version: 20171120000909) do
     t.string   "name"
     t.integer  "address_id"
     t.string   "tel_no"
-    t.string   "office_hour"
-    t.integer  "user_id"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "contacts", force: :cascade do |t|
