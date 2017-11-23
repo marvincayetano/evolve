@@ -33,6 +33,8 @@ ActiveRecord::Schema.define(version: 20171120000909) do
 
   create_table "profiles", force: :cascade do |t|
     t.integer  "user_id"
+    t.integer  "company_id"
+    t.boolean  "is_admin"
     t.string   "first_name"
     t.string   "last_name"
     t.string   "job_title"
