@@ -61,7 +61,12 @@ h1, h2, h3, h4, h5, h6{
   transition: all 1.0s; 
 }
 .navbar-default .navbar-nav > li > a:hover {
-    color: #f47f25;
+  text-shadow: none;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  transition: all 1.5s ease; 
+  color: #f47f25;
+  text-shadow: 0 0 5px rgba(255,255,255,.5);
  }
 #mainNav.navbar-shrink {
   padding-top: 5px;
@@ -81,9 +86,3 @@ h1, h2, h3, h4, h5, h6{
 } 
 
 // NAV BAR END //
-
-// START OF DEVISE#LOGIN // 
-#headerMargin{
-  margin-top: 80px;
-}
-// END OF PAGES#LOGIN // 

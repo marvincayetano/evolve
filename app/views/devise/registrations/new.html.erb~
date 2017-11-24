@@ -13,12 +13,6 @@
               <%= f.email_field :email, autofocus: true, class: 'form-control' %>
             </div>
 
-            <div class="field form-group">
-              <%= f.label :company_id, 'Company ID' %>
-              <span data-toggle="popover" data-content="An id that has been given to your company representative for security purposes"><span class="glyphicon glyphicon-question-sign"></span></span> 
-              <%= f.password_field :company_id, autocomplete: "off", class: 'form-control' %>
-            </div>
-
             <div class="form-group">
               <%= label_tag :first_name, 'First Name' %><br />
               <%= text_field_tag :first_name, nil, name: nil, class: 'form-control' %>
