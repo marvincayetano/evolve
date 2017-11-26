@@ -1,5 +1,5 @@
 #homeHeader {
-  height: 769px;
+  height: 782px;
   text-align: center;
   color: #fff;
   background-image: url('header.jpg');
@@ -14,19 +14,16 @@
   .container{
     padding-top: 314px;
     padding-bottom: 314px;
-    .row h2 {
-    font-size: 5rem;
     }
     .row h3 {
     font-style: italic;
     }
-  }
 }
 
 #homeAbout {
   position: relative;
   background-color: #fff!important;
-  height: 496px;
+  height: 536px;
   color: #4a4b4a;
   text-align: center;
   .container{
@@ -44,7 +41,7 @@
 #homeApproaches {
   position: relative;
   background-color: #ff7e27!important;
-  height: 619px;
+  height: 699px;
   color: #fff;
   text-align: center;
   .container {
@@ -94,7 +91,7 @@
 #homeFooter{
   position: relative;
   background-color: #fff!important;
-  height: 128px;
+  height: 130px;
   color: #fff;
   text-align: center;
   .container {
@@ -105,7 +102,6 @@
       line-height: 50px;
     }
     ul.circle-buttons li a {
-      font-size: 20px;
       line-height: 40px;
       display: block;
       width: 40px;
@@ -128,76 +124,3 @@
 
 /////////////////////////
 
-#contactUsHeader {
-  height: 512px;
-  text-align: center;
-  color: #fff;
-  background-image: url('header.jpg');
-  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; 
-  .container{
-    padding-top: 185.5px;
-    padding-bottom: 185.5px;
-    .row h2 {
-    font-size: 5rem;
-    }
-    .row h3 {
-    font-style: italic;
-    }
-  }
-}
-
-#contactUsForm {
-  position: relative;
-  height: 789px;
-  .container{
-    padding-top: 64px;
-    padding-bottom: 64px;
-  }
-  hr {
-    max-width: 200px;
-    margin: 0px;
-  }
-  .contactUsGetInTouch {
-    margin-bottom: 50px;
-  }
-  .formFields {
-    height: 3.5em;
-    margin-bottom: 16px;
-  }
-}
-
-#contactUsContacts{
-  background-color: #ff7e27!important;
-  height: 754px;
-  color: #fff;
-  text-align: center;
-  .container {
-    padding-top: 64px;
-    padding-bottom: 64px;
-    .row i {
-      color: #fff; 
-    }
-    .row h2, h3 {
-      color: #fff;
-    }
-    .row p {
-      color: rgba(255,255,255,.8); 
-    }
-    .contactUsBox {
-      margin-top: 20px;
-    }
-  }
-  .titleContactUs {
-    padding-bottom: 64px;
-  }
-  .mainContactUs {
-    padding-top: 0;
-  }
-}

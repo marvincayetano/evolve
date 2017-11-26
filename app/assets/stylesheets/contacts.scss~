@@ -1,3 +1,70 @@
-// Place all the styles related to the contacts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#contactUsHeader {
+  height: 525px;
+  text-align: center;
+  color: #fff;
+  background-image: url('header.jpg');
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  .container{
+    padding-top: 185.5px;
+    padding-bottom: 185.5px;
+    .row h2 {
+    font-style: italic;
+    }
+  }
+}
+
+#contactUsForm {
+  position: relative;
+  height: 787px;
+  .container{
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  hr {
+    max-width: 200px;
+    margin: 0px;
+  }
+  .contactUsGetInTouch {
+    margin-bottom: 50px;
+  }
+  .formFields {
+    height: 3.5em;
+    margin-bottom: 16px;
+  }
+}
+
+#contactUsContacts{
+  background-color: #ff7e27!important;
+  height: 802px;
+  color: #fff;
+  text-align: center;
+  .container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    .row i {
+      color: #fff; 
+    }
+    .row h2, h3 {
+      color: #fff;
+    }
+    .row p {
+      color: rgba(255,255,255,.8); 
+    }
+    .contactUsBox {
+      margin-top: 20px;
+    }
+  }
+  .titleContactUs {
+    padding-bottom: 64px;
+  }
+  .mainContactUs {
+    padding-top: 0;
+  }
+}

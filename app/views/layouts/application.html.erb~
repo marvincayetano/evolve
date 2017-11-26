@@ -2,13 +2,8 @@
 <html>
   <head>
     <title><%= full_title(yield(:title)) %></title>
-    <%= csrf_meta_tags %>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= render 'layouts/rails_default' %>
   </head>
-  
   <body>
     <%= render 'layouts/navigation' %>
     <!-- START OF ALERT MSG ################################################ -->
@@ -18,8 +13,7 @@
       <% end %>
     </div>
     <!-- END OF ALERT MSG ################################################## -->
-      <%= yield %>
-	
+    <%= yield %>
     <%= render 'layouts/footer' %>
   </body>
 </html>

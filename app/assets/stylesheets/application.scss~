@@ -19,8 +19,35 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
+body {
+  padding-top: 60px;
+}
+
+textarea{
+  resize: vertical;
+}
+
 h1, h2, h3, h4, h5, h6{
   font-family: 'Open Sans', sans-serif;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+}
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
 }
 
 // LOGGED IN NAVBAR //
@@ -59,8 +86,6 @@ h1, h2, h3, h4, h5, h6{
   -webkit-transition: all 1.0s;
   -moz-transition: all 1.0s;
   transition: all 1.0s; 
-}
-.navbar-default .navbar-nav > li > a {
 }
 .navbar-default .navbar-nav > li > a:hover {
   text-shadow: none;
