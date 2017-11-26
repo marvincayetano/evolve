@@ -1,3 +1,4 @@
+<% provide(:title,"Contact Us | ") %>
 <header id="contactUsHeader">
 	<div class="container">
 		<div class="row">
@@ -108,7 +109,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
-				<h3>Already a customer?<br>Contact our support service</h3>
+				<h3>Already a customer?<br>Contact our support service via Support Room</h3>
 			</div>
 			<div class="col-md-10 col-md-offset-1">
 				<br>

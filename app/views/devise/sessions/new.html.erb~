@@ -1,3 +1,4 @@
+<% provide(:title,"Log In | ") %>
 <div id="loginForm">
   <div class="container">
     <div class="row">

@@ -1,4 +1,4 @@
-<% provide(:title,"Sign Up|") %>
+<% provide(:title,"Sign Up") %>
 <div id="loginForm">
   <div class="container">
     <div class="row">
