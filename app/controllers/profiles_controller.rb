@@ -41,12 +41,12 @@ class ProfilesController < ApplicationController
   private
   # WHITELISTING THE FORM SO HACKER CANT ADD FORM FIELD
   # USES FOR MASS ASSIGN
-    def profile_params
-      params.require(:profile).permit(:avatar, :first_name, :last_name, :job_title, :phone_number, :description) 
-    end
+  def profile_params
+    params.require(:profile).permit(:avatar, :first_name, :last_name, :job_title, :phone_number, :description) 
+  end
 
-    def only_current_user
-      @user = User.find( params[:user_id] )
-      redirect_to(root_path) unless @user == current_user
-    end
+  def only_current_user
+    @user = User.find( params[:user_id] )
+    redirect_to(root_path) unless @user == current_user
+  end
 end
