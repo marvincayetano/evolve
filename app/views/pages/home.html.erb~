@@ -1,3 +1,4 @@
+<% provide(:title,"Home") %>
 <header id="homeHeader">
 	<div class="container">
 		<div class="row">
@@ -35,6 +36,8 @@
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
 				<h2>Our main approaches</h2>
+				<hr>
+				<br>
 			</div>
 		</div>
 	</div>
