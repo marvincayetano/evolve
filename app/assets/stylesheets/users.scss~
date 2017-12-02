@@ -23,3 +23,8 @@
     }
   }
 }
+
+.avatar-show-img {
+  width: 215px;
+  height:128px;
+}
