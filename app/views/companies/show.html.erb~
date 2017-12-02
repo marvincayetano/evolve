@@ -1,0 +1,20 @@
+<% provide(:title, "#{@user.profile.first_name} #{@user.profile.last_name}") %>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 text-left">
+      <%= image_tag @user.profile.avatar.url, class: 'avatar-show-img' %>
+      <h2><%= @user.profile.first_name %> <%= @user.profile.last_name %></h2>
+      <%= @user.profile.job_title %></h3>
+      <div class="profile-block profile-description">
+        <h3>Description</h3>
+        <%= @user.profile.description %>
+      </div>
+      <div class="profile-block profile-contact-info">
+        <h3>Contact information</h3>
+        <%= @user.profile.phone_number %><br>
+      </div>
+    </div>
+    <div class="col-md-6">
+    </div>
+  </div>
+</div>
