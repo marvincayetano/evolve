@@ -8,4 +8,12 @@ module ApplicationHelper
       page_title + " | " + base_title
     end
   end
+
+  def navbar_color
+    if user_signed_in?
+      "navbar-inverse".html_safe
+    else
+      "navbar-default".html_safe
+    end
+  end
 end

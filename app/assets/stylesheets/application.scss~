@@ -36,13 +36,11 @@ h1 {
   font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 30px;
-  text-align: center;
 }
 h2 {
   font-size: 2em;
   letter-spacing: -1px;
   margin-bottom: 30px;
-  text-align: center;
   font-weight: normal;
 }
 p {
@@ -82,7 +80,6 @@ p {
 #mainNav {
   padding-top: 5px;
   padding-bottom: 5px;
-  background: transparent;
   border-bottom: none;
   -webkit-transition: all 1.0s;
   -moz-transition: all 1.0s;
@@ -109,7 +106,10 @@ p {
 #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
   color: #212529;
 }
- #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+  background-color: transparent;
+}
+#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
   color: #f47f25; 
 } 
 
