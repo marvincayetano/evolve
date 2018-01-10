@@ -8,6 +8,5 @@ class CreateContacts < ActiveRecord::Migration[5.0]
       t.text :comments
       t.timestamps
     end
-    add_index :contacts, :contact_id
   end
 end

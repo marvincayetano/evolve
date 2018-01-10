@@ -10,6 +10,7 @@ class ContactsController < ApplicationController
   def create
     # Instantiate new Contact Object
     @contact = Contact.new(contact_params)
+    puts "asad"
     if @contact.save # Saves to database and returns true or false
       first_name = params[:contact][:first_name]
       last_name = params[:contact][:last_name]

@@ -1,7 +1,7 @@
 <% provide(:title, "#{@user.profile.first_name} #{@user.profile.last_name}") %>
-<div class="container">
+<div class="container" id="userProfile">
   <div class="row">
-    <div class="col-md-3 text-left">
+    <aside class="col-md-3 text-left">
       <%= image_tag @user.profile.avatar.url, class: 'avatar-show-img' %>
       <h2><%= @user.profile.first_name %> <%= @user.profile.last_name %></h2>
       <%= @user.profile.job_title %></h3>
@@ -13,7 +13,7 @@
         <h3>Contact information</h3>
         <%= @user.profile.phone_number %><br>
       </div>
-    </div>
+    </aside>
     <div class="col-md-6">
       <h2>POSTS</h2>
       <ul class="list-unstyled">

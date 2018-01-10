@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   end
 
   # USER PROFILE USER TYPE
-  resources :profile do
+  resources :users do
     resource :user_type, except: :destroy
   end
 
@@ -22,8 +22,8 @@ Rails.application.routes.draw do
   get 'clients', to: 'pages#clients'
 
   # CONTACTS
-  get 'contacts/new'
   resources :contacts, only: [:create]
+  get 'contacts/new'
   get 'contact-us', to: 'contacts#new', as: 'new_contact'
 
   get 'login', to: 'pages#login'

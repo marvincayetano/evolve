@@ -6,7 +6,7 @@
     <%= render 'layouts/shim' %>
   </head>
   <body>
-    <%= render 'layouts/navigation' %>
+    <%= render 'shared/navigation' %>
     <!-- START OF ALERT MSG ################################################ -->
     <div class="container" style="position: absolute; padding:0; width:100%;">
       <% flash.each do |type, msg| %>
@@ -15,7 +15,7 @@
     </div>
     <!-- END OF ALERT MSG ################################################## -->
     <%= yield %>
-    <% if user_signed_in? %>
+    <% if !user_signed_in? %>
       <%= render 'layouts/footer' %>
     <% end %>
   </body>
