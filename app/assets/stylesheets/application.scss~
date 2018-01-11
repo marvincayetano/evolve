@@ -91,7 +91,7 @@ p {
 }
 .current-nav {
   border-bottom-color: #ff7e27 !important;
-  color: #f47f25; 
+  color: #f47f25 !important; 
 
 }
 .navbar-default .navbar-nav > li > a:hover {
