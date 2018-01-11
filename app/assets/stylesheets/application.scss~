@@ -79,16 +79,21 @@ p {
 // NAV BAR //
 #mainNav {
   padding-top: 5px;
-  padding-bottom: 0;
+  padding-bottom: 0px;
+  border-top: 4px #d9d9d6 solid;
   border-bottom: 0px;
-  border-top: 3px #9d9d18 solid;
   -webkit-transition: all 1.0s;
   -moz-transition: all 1.0s;
   transition: all 1.0s; 
 }
 .navbar-default .navbar-nav > li > a {
   border-bottom: 3px solid transparent;
- }
+}
+.current-nav {
+  border-bottom-color: #ff7e27 !important;
+  color: #f47f25; 
+
+}
 .navbar-default .navbar-nav > li > a:hover {
   text-shadow: none;
   -webkit-transition: all 1.5s ease;
@@ -97,10 +102,10 @@ p {
   border-bottom-color: #ff7e27;
   color: #f47f25;
   text-shadow: 0 0 5px rgba(255,255,255,.5);
- }
+}
 #mainNav.navbar-shrink {
   padding-top: 5px;
-  border-top: 4px #d9d9d6 solid;
+  border-top: 4px #f48625 solid;
   background-color: #fff;
 }
 #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {

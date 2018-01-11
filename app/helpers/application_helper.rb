@@ -16,4 +16,8 @@ module ApplicationHelper
       "navbar-default".html_safe
     end
   end
+
+  def cp(path)
+    "current-nav" if current_page?(path)
+  end
 end

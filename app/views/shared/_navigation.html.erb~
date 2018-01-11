@@ -15,7 +15,7 @@
     <div class="collapse navbar-collapse" id="main-nav-collapse">
       <ul class="nav navbar-nav navbar-right">
 	<% if !user_signed_in? %> <!-- IF USER IS SIGNED IN -->
-	  <li><%= link_to "ABOUT", about_path , class: cp(about_path) %></li>
+	  <li class: "#{cp(about_path)}"><%= link_to "ABOUT", about_path %></li>
 	  <li><%= link_to "SERVICES", services_path, class: cp(services_path) %></li>
 	  <li><%= link_to "PRODUCTS", products_path, class: cp(products_path) %></li>
 	  <li><%= link_to "CLIENTS", clients_path, class: cp(clients_path) %></li>

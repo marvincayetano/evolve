@@ -36,4 +36,9 @@ $(document).on('turbolinks:load', function(){
   // Popover. What is this ?
   $('[data-toggle="popover"]').popover();   
   
+  // Add color to current nav
+  $('.navbar-default .navbar-nav li a').click(function() {
+      $('.navbar-default .navbar-nav li a').removeClass('current-nav');
+      $(this).addClass('current-nav');
+  });
 });
