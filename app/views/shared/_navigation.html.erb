@@ -27,9 +27,6 @@
 	  <% end %>
 	  <li class="dropdown">
 	    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-	    <% if current_user.profile.avatar %>
-	      <%= image_tag current_user.profile.avatar.url, class: 'navbarImage' %>
-	    <% end %>
 	    </a>
 	    <ul class="dropdown-menu">
 	      <li><%= link_to "View Profile", user_path(id: current_user.id) %></li>
