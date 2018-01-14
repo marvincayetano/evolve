@@ -15,13 +15,13 @@
       </div>
     </aside>
     <div class="col-md-6">
-      <h2>POSTS</h2>
-      <ul class="list-unstyled">
-        <li>
-          <div class="well">
-          </div>
-        </li>
-      </ul>
+      <% if @user.userposts.any? %>
+        <h3>Feed (<%= @user.userposts.count %>)</h3>
+        <ol class="userposts">
+          <%= render @userposts %>
+        </ol>
+        <%= will_paginate @userposts %>
+      <% end %>
     </div>
   </div>
 </div>

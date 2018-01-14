@@ -43,6 +43,13 @@ gem 'devise', '4.3.0'
 # Use paperclip for image upload
 gem 'paperclip', '4.3.6'
 
+# Use for pagination
+gem 'will_paginate', '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
+
+# Use for fake data
+gem 'faker', '1.8.7'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'

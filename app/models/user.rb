@@ -7,4 +7,6 @@ class User < ApplicationRecord
   
   # EACH USER HAS ONE PROFILE AND USER TYPE
   has_one :profile 
+  # If the user is destroyed then the userposts will be destroyed as well
+  has_many :userposts, dependent: :destroy
 end

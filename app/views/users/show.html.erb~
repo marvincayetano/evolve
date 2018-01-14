@@ -1,5 +1,5 @@
 <% provide(:title, "#{@user.profile.first_name} #{@user.profile.last_name}") %>
-<div class="container">
+<div class="container" id="userProfile">
   <div class="row">
     <aside class="col-md-3 text-left">
       <%= image_tag @user.profile.avatar.url, class: 'avatar-show-img' %>
@@ -15,13 +15,13 @@
       </div>
     </aside>
     <div class="col-md-6">
-      <h2>POSTS</h2>
-      <ul class="list-unstyled">
-        <li>
-          <div class="well">
-          </div>
-        </li>
-      </ul>
+      <% if @user.userposts.any? %>
+        <h3>Feed (<%= @user.userposts.count %>)</h3>
+        <ol class="userposts">
+          <%= render @userposts %>
+        </ol>
+        <%= will_paginate @userposts %>
+      <% end %>
     </div>
   </div>
 </div>

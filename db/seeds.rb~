@@ -8,4 +8,12 @@
 UserType.create(user_type: 'Admin')
 UserType.create(user_type: 'Evotech Developer')
 UserType.create(user_type: 'Client')
-Company.create(code: '000000', name: 'Evotech Software Solutions', address_id: 1,tel_no: '613 1111 111')
+Company.create(code: '000000' ,name: 'Evotech Software Solutions', address_id: 1,tel_no: '613 1111 111')
+
+users = User.order(:created_at).take(6)
+50.times do
+  content = Faker::Lorem.sentence(5)
+  users.each { |user| 
+    user.userposts.create!(content: cocntent)
+  }
+end
