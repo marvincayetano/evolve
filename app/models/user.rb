@@ -7,6 +7,7 @@ class User < ApplicationRecord
   
   # EACH USER HAS ONE PROFILE AND USER TYPE
   has_one :profile 
+  has_attached_file :avatar, default_url: "avatar.png"
   # If the user is destroyed then the userposts will be destroyed as well
   has_many :userposts, dependent: :destroy
 end

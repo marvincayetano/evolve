@@ -8,15 +8,18 @@
   .user {
     margin-top: 5em;
     padding-top: 0;
+    margin-left: -20px;
   }
   .content {
+    margin-top: 20px;
     display: block;
     margin-left: 60px;
-    img {
-      display: block;
-      padding: 5px 0;
-      border-radius: 50%;
-    }
+  }
+  img {
+    height: 64px;
+    width: 64px;
+    display: block;
+    border-radius: 50%;
   }
   .timestamp {
     color: #e8e8e8;
