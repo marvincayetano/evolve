@@ -19,6 +19,10 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
+.white-bg{
+  background-color: #FFFFFF;
+}
+
 body {
   padding-top: 60px;
 }

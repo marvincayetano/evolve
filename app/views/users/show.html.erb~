@@ -3,8 +3,13 @@
   <div class="row">
     <aside class="col-md-3 text-left">
       <%= image_tag @user.profile.avatar.url, class: 'avatar-show-img' %>
-      <h2><%= @user.profile.first_name %> <%= @user.profile.last_name %></h2>
-      <%= @user.profile.job_title %></h3>
+      <div class="user-info-container">
+        <h1 class="user-info">
+          <span class="user-fullname d-block"><%= @user.profile.first_name %> <%= @user.profile.last_name %></span>
+          <span class="user-jobTitle d-block"><%= @user.profile.job_title %></span>
+        </h1>
+      </div>
+      <!-- di pa tapos --!>
       <div class="profile-block profile-description">
         <h3>Description</h3>
         <%= @user.profile.description %>
@@ -14,7 +19,7 @@
         <%= @user.profile.phone_number %><br>
       </div>
     </aside>
-    <div class="col-md-6">
+    <div class="col-md-8">
       <div class="well well-lg row">
         <% if @user.userposts.any? %>
           <h3>Feed (<%= @user.userposts.count %>)</h3>

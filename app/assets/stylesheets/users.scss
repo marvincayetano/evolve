@@ -1,4 +1,4 @@
-#loginForm{
+#loginForm {
   height: -moz-calc(100% - 128px);
   height: -webkit-calc(100% - 128px);
   height: calc(100% - 128px);
@@ -32,4 +32,18 @@
 
 #userProfile {
   margin-top: 20px;
+  .user-info{
+    letter-spacing: 0px;
+    .user-fullname {
+      font-size: 26px;
+      line-height: 30px;
+    } 
+    .user-jobTitle {
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 24px;
+      color: #666;
+    }
+  }
 }

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'contacts/new'
   root to: 'pages#home'
 
   # USER LOGIN
@@ -18,12 +19,9 @@ Rails.application.routes.draw do
   end
 
 
-  get 'about', to: 'pages#about'
-  get 'clients', to: 'pages#clients'
-
+  
   # CONTACTS
   resources :contacts, only: [:create]
-  get 'contacts/new'
   get 'contact-us', to: 'contacts#new', as: 'new_contact'
 
   get 'login', to: 'pages#login'
