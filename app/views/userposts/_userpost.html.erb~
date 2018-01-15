@@ -1,20 +1,20 @@
-	<div class="row">
-		<div class="col-md-12">
-			<ul class="list-unstyled">
-				<li>
-					<div class="well well-sm row">
-						<div class="col-sm-2 text-center userpost_avatar">
-							<%= image_tag @user.profile.avatar.url %>
-						</div>
-						<div class="col-sm-10">
-							<p><%= link_to userpost.user.email, userpost.user %></p>
-							<p><%= userpost.content %></p>
-							<span class="timestamp">
-								Posted <%= time_ago_in_words(userpost.created_at) %> ago.
-							</span>
-						</div>
+<div class="row">
+	<div class="col-md-12">
+		<ul class="list-unstyled">
+			<li>
+				<div class="well well-sm row white-bg">
+					<div class="col-sm-2 text-center userpost_avatar">
+						<%= image_tag @user.profile.avatar.url %>
 					</div>
-				</li>
-			</ul>
-		</div>
+					<div class="col-sm-10">
+						<p><%= link_to userpost.user.profile.first_name,userpost.user %></p>
+						<p><%= userpost.content %></p>
+						<span class="timestamp">
+							Posted <%= time_ago_in_words(userpost.created_at) %> ago.
+						</span>
+					</div>
+				</div>
+			</li>
+		</ul>
 	</div>
+</div>
