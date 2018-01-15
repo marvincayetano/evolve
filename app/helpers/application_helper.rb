@@ -16,6 +16,12 @@ module ApplicationHelper
       "navbar-default".html_safe
     end
   end
+  
+  def navbar_icon_link
+    unless user_signed_in?
+      "/".html_safe
+    end
+  end
 
   def cp(path)
     "current-nav" if current_page?(path)

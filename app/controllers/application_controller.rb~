@@ -1,8 +1,13 @@
 class ApplicationController < ActionController::Base
-  before_filter :set_timezone
   protect_from_forgery with: :exception
+  protected
+    def after_sign_in_path_for(resource)
+      if @user.profile.nil?
+        request.env['omniauth.origin'] || stored_location_for(resource) || 
+	    new_user_profile_path(user_id: current_user.id)
+ 
 
-  def set_timezone
-    Time.zone = current_user.timezone
-  end
+      end
+    end
 end
+

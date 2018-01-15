@@ -14,14 +14,14 @@
         <%= @user.profile.phone_number %><br>
       </div>
     </aside>
-    <div class="col-md-6">
-      <% if @user.userposts.any? %>
-        <h3>Feed (<%= @user.userposts.count %>)</h3>
-        <ol class="userposts">
+    <div class="col-md-8">
+      <div class="well well-lg row">
+        <% if @user.userposts.any? %>
+          <h3>Feed (<%= @user.userposts.count %>)</h3>
           <%= render @userposts %>
-        </ol>
-        <%= will_paginate @userposts %>
-      <% end %>
+          <%= will_paginate @userposts %>
+        <% end %>
+      </div>
     </div>
   </div>
 </div>
